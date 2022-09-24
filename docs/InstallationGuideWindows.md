@@ -3,21 +3,14 @@
 ## What You Will Be Installing
 
 1. Microsoft Teams
-2. Slack
-3. Visual Studio Code (Recommended) and Plugins
-4. Git for Windows && Github
-5. Node.js (latest) and NPM Packages
-6. Chrome or Firefox (Recommended)
+2. Visual Studio Code (Recommended) and Plugins
+3. Git for Windows && Github
+4. Node.js (latest) and NPM Packages
+5. Chrome or Firefox (Recommended)
 
 ## Microsoft Teams
 
 Before class began, you should have received emails and training from CanCode Communities about on how to install, setup, and use Microsoft Teams.
-
-## Slack
-
-Before installing Slack, please accept the invite to CanCode Communities' channel (_albanycancode_). You should have received an email before class.
-
-Use can use the [web](https://albanycancode.slack.com/) or desktop version. If you would like to use the desktop version, go to https://slack.com/downloads/windows and click on a download option.
 
 ## Visual Studio Code (Recommended)
 
@@ -57,7 +50,7 @@ We recommend you select _Use Visual Studio Code as Git's default editor_ from th
 
 To avoid unnecessary merge conflicts (believe me, merge conflicts are very frustrating), please make sure _Checkout Windows-style, commit Unix-style line endings_ is selected.
 
-When you finish installing, you should see Git Bash on your computer. Open it, type `git --version` to confirm that it works. You should see something like _git version 2.33.0_. Then close out of Git Bash.
+When you finish installing, you should see Git Bash on your computer. Open it, type `git --version` to confirm that it works. You should see something like _git version 2.37.3_. Then close out of Git Bash.
 
 ### Github
 
@@ -65,14 +58,15 @@ You will need to [create a Github account](https://github.com/signup?ref_cta=Sig
 
 ```bash
 git config --global user.name "YOUR-USERNAME"
-git config --global user.email "your@email.com”
+git config --global user.email "your@email.com"
+git config --global pull.rebase true
 ```
 
 ## Node.js and NPM Packages
 
 Node.js is a JavaScript runtime engine. It allows you to run JavaScript programs outside of Chrome, Safari, Edge or another web browser.
 
-You will need to have the latest _Current_ version of Node installed as of September 2021 (16.10). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
+You will need to have the latest LTS version of Node installed as of October 2022 (16.x). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
 
 If Node.js is up-to-date, you should update NPM. You can update it with:
 
@@ -80,7 +74,7 @@ If Node.js is up-to-date, you should update NPM. You can update it with:
 npm install -g npm@latest
 ```
 
-To install Node.js, go to https://nodejs.org/en/ and click on the _16.10.X Current_ version.
+To install Node.js, go to https://nodejs.org/en/ and click on the _16.x.x LTS_ version.
 
 When it finishes downloading, open the downloaded file. Accept the License Agreement and all of the defaults. If you are asked to allow the app to make changes to your device, click on _Yes_.
 

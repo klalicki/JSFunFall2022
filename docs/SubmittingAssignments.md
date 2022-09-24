@@ -31,7 +31,7 @@ You will then need to make pull request from Github. Here is how you will do tha
 
 ![Open your repositories in Github](install-screens/git-your-repositories.png)
 
-4. Select _JSFunFall2021_
+4. Select _JSFunFall2022_
 5. Click on the "Contribute" dropdown and click on the "Open pull request" button
 
 ![Opening a pull request](install-screens/open-pull-request.png)

@@ -3,13 +3,12 @@
 ## What You Will Be Installing
 
 1. Microsoft Teams
-2. Slack
-3. Xcode
-4. Homebrew
-5. Git & Github
-6. Node.js (latest) and NPM Packages
-7. Visual Studio Code (Recommended) and Plugins
-8. Chrome or Firefox (Recommended)
+2. Xcode
+3. Homebrew
+4. Git & Github
+5. Node.js (latest) and NPM Packages
+6. Visual Studio Code (Recommended) and Plugins
+7. Chrome or Firefox (Recommended)
 
 We are going to install software over the command line, so before starting, open your terminal window. (You can open it by pressing `command+space` and searching for _terminal_).
 
@@ -19,12 +18,6 @@ Before class began, you should have received emails and training from CanCode Co
 
 You will need to give Teams permissions for _Screen Recording_, because we ask students to share their screens during class. [Here is how you can enable this on Big Sur and Catalina.](https://www.marquette.edu/microsoft-teams/teams-macos-access.php)
 
-## Slack
-
-Before installing Slack, please accept the invite to CanCode Communities' channel (_albanycancode_). You should have received an email before class.
-
-Use can use the [web](https://albanycancode.slack.com/) or desktop version. The desktop version can be found in the App Store.
-
 ## Xcode
 
 Xcode can be found in the App Store. It will take around 50 minutes to install, so please install ASAP.
@@ -33,7 +26,7 @@ Xcode can be found in the App Store. It will take around 50 minutes to install, 
 
 [Homebrew](https://brew.sh/) is a package manager for Mac, meaning that it will help make installing and managing a lot of command line software easier. We will be installing Node.js with Homebrew to avoid permission issues.
 
-If you already have Homebrew installed or if you are not sure whether you have it installed, type `brew -v` in your terminal. If you see a response like _Homebrew 3.2.12_, then you have it installed. Update homebrew with `brew update` and then you can skip ahead to the next section. If you get a _command not found_ error, you will need to install Homebrew.
+If you already have Homebrew installed or if you are not sure whether you have it installed, type `brew -v` in your terminal. If you see a response like _Homebrew 3.6.2_, then you have it installed. Update homebrew with `brew update` and then you can skip ahead to the next section. If you get a _command not found_ error, you will need to install Homebrew.
 
 To install Homebrew, type this in your terminal:
 
@@ -55,7 +48,7 @@ export PATH="/usr/local/bin:$PATH"
 
 Git is version control software. It is used for sharing code, combining team members' code and managing different versions of your code.
 
-If you are not sure whether you have it installed, type `git --version` in your terminal. If you see output like this - _git version 2.33.0_ - then congratulations! You already have git installed and you can skip ahead to the next section.
+If you are not sure whether you have it installed, type `git --version` in your terminal. If you see output like this - _git version 2.37.3_ - then congratulations! You already have git installed and you can skip ahead to the next section.
 
 To install git, type this in your terminal:
 
@@ -69,14 +62,15 @@ You will need to [create a Github account](https://github.com/signup?ref_cta=Sig
 
 ```bash
 git config --global user.name "YOUR-USERNAME"
-git config --global user.email "your@email.com”
+git config --global user.email "your@email.com"
+git config --global pull.rebase true
 ```
 
 ## Node.js and NPM Packages
 
 Node.js is a JavaScript runtime engine. It allows you to run JavaScript programs outside of Chrome, Safari, Edge or another web browser.
 
-You will need to have the latest stable version of Node installed as of September 2021 (16.10). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
+You will need to have the latest LTS version of Node installed as of October 2022 (16.x). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
 
 1. [Upgrade Node.js via whatever you originally installed Node.js with.](https://flaviocopes.com/how-to-update-node/) If you have Node.js projects on your computer and you wish to maintain them, this could break your existing projects.
 2. Install multiple version of Node.js on your computer with NVM. See the _Node Version Manager (NVM)_ section of the [Linux Installaton Guide](InstallationGuideLinuxAndNVM.md).

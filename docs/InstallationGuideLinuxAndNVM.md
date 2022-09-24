@@ -9,7 +9,7 @@
 5. Visual Studio Code (Recommended) and Plugins
 6. Chrome or Firefox (Recommended)
 
-Before installing anything, update your package manager. Depending on your linux distro, it could be:
+Before installing anything, update your package manager. Depending on your Linux distro, it could be:
 
 ```bash
 sudo apt update
@@ -60,10 +60,10 @@ These instructions are for Mac OSX, Linux and [Windows Subsystem for Linux](http
 
 Write down what version of Node.js you have. You can find this out by typing `node -v`
 
-If you have any existing projects, create a file called .nvmrc your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 10.22.0, you would type and save the following:
+If you have any existing projects, create a file called .nvmrc your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 15.22.0, you would type and save the following:
 
 ```
-v10.22.0
+v15.22.0
 ```
 
 Finally, before installing NVM, you will need to uninstall your current version Node.js and NPM. How you uninstall depends on your Operating System and how you installed Node.js. For example:
@@ -116,7 +116,7 @@ touch ~/.bash_profile
 This will download and install NVM.
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
 In your terminal, you should see a success message like the following:
@@ -147,23 +147,23 @@ Restart your terminal. Type `nvm --version`. You should see a version number lik
 
 ## Using NVM
 
-You have NVM installed, but you still need to install Node.js. You will need to have the latest stable version of Node installed as of September 2021 (16.10).
+You have NVM installed, but you still need to install Node.js. You will need to have the latest LTS version of Node installed as of October 2022 (16.x).
 
 ```
 nvm install node
 ```
 
-If you are working with NVM because you have older Node.js projects, you can install older versions of Node.js by specificizing the version number. For example, if need version 10.22.0:
+If you are working with NVM because you have older Node.js projects, you can install older versions of Node.js by specificizing the version number. For example, if need version 15.22.0:
 
 ```bash
-nvm install 10.22.0
+nvm install 15.22.0
 ```
 
 To switch between node versions, you can specify the version.
 
 ```bash
 nvm use node # latest version installed
-nvm use 10.22.0 # specific version
+nvm use 15.22.0 # specific version
 ```
 
 If you have a _.nvmrc_ file in your project root, then you do not need to specify the version number from inside your project.
@@ -176,7 +176,7 @@ However, `nvm use` will only set the node version in the terminal window that yo
 
 ```bash
 nvm alias default node # latest version installed
-nvm alias default 10.22.0 # specific version
+nvm alias default 15.22.0 # specific version
 ```
 
 See more [usage instructions](https://github.com/nvm-sh/nvm#usage) and ["How to Lock down Your Project’s Node Version Using .Nvmrc Or engines"](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245).
