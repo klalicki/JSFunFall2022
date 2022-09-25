@@ -20,7 +20,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "1. Variables & Numbers",
+      "name": "1. Variables",
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "args": [
         "--timeout",
