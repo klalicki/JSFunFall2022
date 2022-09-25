@@ -23,6 +23,12 @@ git remote -v
 
 At any point, if you see the message "Please tell me who you are" in your command line output, you will need to setup your command line to use your Github account. Follow the instruction underneath where it says "Run", replacing "youremail@example.com" and "Your Name" with your information.
 
+Finally, to run the tests for the exercises, you will need to install testing libraries:
+
+```bash
+npm install
+```
+
 #### On Making Pull Requests
 
 Whenever you are ready to submit your work, you will need to [commit your work, push to your own repository, and then make a pull request](docs/SubmittingAssignments.md).
