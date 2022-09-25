@@ -11,7 +11,7 @@ You will first need to commit your changes to your local machine. To do this in 
 3. Give your commit a descriptive name where it says "Message ..."
 4. Click on the checkmark icon above your message.
 
-![Make a git commit in Visual Studio Code](install-screens/git-commit.png)
+![Make a git commit in Visual Studio Code](img/git-commit.png)
 
 ## Push Your Changes to Your Forked Repo
 
@@ -29,12 +29,12 @@ You will then need to make pull request from Github. Here is how you will do tha
 2. If you are not signed in, signin
 3. In the top right, click on your avatar and select "Your repositories"
 
-![Open your repositories in Github](install-screens/git-your-repositories.png)
+![Open your repositories in Github](img/git-your-repositories.png)
 
 4. Select _JSFunFall2022_
 5. Click on the "Contribute" dropdown and click on the "Open pull request" button
 
-![Opening a pull request](install-screens/open-pull-request.png)
+![Opening a pull request](img/open-pull-request.png)
 
 6. Click on the "Create pull requests" button
 7. Give your pull request a title if it does not have one and click on the "Create pull requests" button
