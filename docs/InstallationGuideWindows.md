@@ -4,8 +4,8 @@
 
 1. Microsoft Teams
 2. Visual Studio Code (Recommended) and Plugins
-3. Git for Windows && Github
-4. Node.js (latest) and NPM Packages
+3. Git for Windows and Github
+4. Node.js (latest LTS version) and NPM Packages
 5. Chrome or Firefox (Recommended)
 
 ## Microsoft Teams
@@ -16,7 +16,7 @@ Before class began, you should have received emails and training from CanCode Co
 
 Visual Studio Code is an IDE, which is an intelligent code editor. We will be teaching with Visual Studio Code and highly recommend that you use it too. If you are experienced with programming and the command line, and you believe that you can translate whatever we teach you in Visual Studio Code to your editor of choice, you may opt for another editor, but we will not be able to help you if problems arise.
 
-To install, go to https://code.visualstudio.com and click on _Download for Windows_.
+To install, go to https://code.visualstudio.com and click on the _Download Windows Universal_ dropdown and select the _Stable_ version.
 
 When it finishes downloading, double click on the downloaded _.exe_ file and accept the License Agreement. You will accept all of the defaults until you get to the _Select Additional Tasks_ screen. Here are the settings that I use. Be sure to check _Add to PATH_.
 
@@ -24,11 +24,13 @@ When it finishes downloading, double click on the downloaded _.exe_ file and acc
 
 Continue with the installer. When it finishes, Visual Studio Code should open. When it does, close out of it for now. We will revisit Visual Studio Code once we finish installing a few dependencies.
 
-## Git for Windows && Github
+## Git for Windows and Github
 
 **We would like you to install Git Bash because it supports Unix style commands. If you have Git installed but not Git Bash, then you should remove Git and follow the instruction below to reinstall.**
 
 Git is version control software. It is used for sharing code, combining team members' code and managing different versions of your code.
+
+You will need to [create a Github account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you do not have one.
 
 To install git, got to https://git-scm.com/downloads and click on _Windows_.
 
@@ -51,16 +53,6 @@ We recommend you select _Use Visual Studio Code as Git's default editor_ from th
 To avoid unnecessary merge conflicts (believe me, merge conflicts are very frustrating), please make sure _Checkout Windows-style, commit Unix-style line endings_ is selected.
 
 When you finish installing, you should see Git Bash on your computer. Open it, type `git --version` to confirm that it works. You should see something like _git version 2.37.3_. Then close out of Git Bash.
-
-### Github
-
-You will need to [create a Github account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you do not have one. Once you have an account, you will need to configure your Github username and email address on your Window's machine. In your terminal, type:
-
-```bash
-git config --global user.name "YOUR-USERNAME"
-git config --global user.email "your@email.com"
-git config --global pull.rebase true
-```
 
 ## Node.js and NPM Packages
 
@@ -90,9 +82,9 @@ To install ESLint, type this in Git Bash:
 npm install -g eslint
 ```
 
-When it’s finished, type `eslint -v` to confirm that it has installed.
+When it’s finished, type `eslint -v` in Git Bash to confirm it has installed.
 
-## Visual Studio Code Setup and Plugins
+## Visual Studio Code Setup and Extensions
 
 ### Setting Git Bash as your Default Shell
 

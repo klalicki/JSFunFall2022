@@ -19,6 +19,7 @@ cd JSFunFall2022
 git remote add upstream https://github.com/AlbanyCanCodeCourses/JSFunFall2022.git
 git remote -v
 # You should see your upstream set as https://github.com/AlbanyCanCodeCourses/JSFunFall2022.git
+git config pull.rebase true
 ```
 
 At any point, if you see the message "Please tell me who you are" in your command line output, you will need to setup your command line to use your Github account. Follow the instruction underneath where it says "Run", replacing "youremail@example.com" and "Your Name" with your information.

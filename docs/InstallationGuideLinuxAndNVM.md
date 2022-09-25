@@ -5,7 +5,7 @@
 1. Microsoft Teams
 2. Slack
 3. Git
-4. Node.js (latest) and NPM Packages
+4. Node.js (latest LTS version) and NPM Packages
 5. Visual Studio Code (Recommended) and Plugins
 6. Chrome or Firefox (Recommended)
 
@@ -42,7 +42,7 @@ Depending on your Linux distro, you could replacing _brew_ with _apt_, _apt-get_
 
 #### 3. We recommend you install Node.js with NVM
 
-We will be using the latest even numbered version of Node.js, and the default Node.js packages are typically a few major versions behind. A command like e.g. `sudo apt-get install -y nodejs` will not get you the latest version. NVM will allow you to install the latest version.
+We will be using the latest even numbered version of Node.js, and the default Node.js packages are typically a few major versions behind. A command like e.g. `sudo apt-get install -y nodejs` will not get you the latest LTS version (16.x as of October 2022). NVM will allow you to install the latest LTS version.
 
 # Node Version Manager (NVM)
 
@@ -54,13 +54,11 @@ Node Version Manager (NVM) is a version manager for Node.js. That means that it 
 
 This is not for beginners. If you are new to the command line or installing node for the first time, we recommend following the instructions on how to install Nodes.js in the [Mac](InstallationGuideMac.md) or [Windows](InstallationGuideWindows.md) guide.
 
-These instructions are for Mac OSX, Linux and [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about). If you have Windows without some kind of virtualization of Linux, please look into [nvm-windows](https://github.com/coreybutler/nvm-windows) or [nodist](https://github.com/nullivex/nodist).
-
 ## If you already have Node.js installed
 
 Write down what version of Node.js you have. You can find this out by typing `node -v`
 
-If you have any existing projects, create a file called .nvmrc your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 15.22.0, you would type and save the following:
+If you have any existing projects, create a file called _.nvmrc_ your projects' root. Open the file and add your current Node.js version to it. So, for example, if current version of Node.js is 15.22.0 you would type and save the following:
 
 ```
 v15.22.0
@@ -150,7 +148,7 @@ Restart your terminal. Type `nvm --version`. You should see a version number lik
 You have NVM installed, but you still need to install Node.js. You will need to have the latest LTS version of Node installed as of October 2022 (16.x).
 
 ```
-nvm install node
+nvm install --lts
 ```
 
 If you are working with NVM because you have older Node.js projects, you can install older versions of Node.js by specificizing the version number. For example, if need version 15.22.0:

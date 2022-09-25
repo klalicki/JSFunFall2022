@@ -5,9 +5,9 @@
 1. Microsoft Teams
 2. Xcode
 3. Homebrew
-4. Git & Github
-5. Node.js (latest) and NPM Packages
-6. Visual Studio Code (Recommended) and Plugins
+4. Git and Github
+5. Node.js (latest LTS version) and NPM Packages
+6. Visual Studio Code (Recommended) and Extensions
 7. Chrome or Firefox (Recommended)
 
 We are going to install software over the command line, so before starting, open your terminal window. (You can open it by pressing `command+space` and searching for _terminal_).
@@ -21,6 +21,12 @@ You will need to give Teams permissions for _Screen Recording_, because we ask s
 ## Xcode
 
 Xcode can be found in the App Store. It will take around 50 minutes to install, so please install ASAP.
+
+Once Xcode is complete, go to your terminal and install the command line tools:
+
+```bash
+xcode-select --install
+```
 
 ## Homebrew
 
@@ -44,9 +50,11 @@ Type `echo $PATH`. Make sure that _/usr/local/bin_ is somewhere in the response.
 export PATH="/usr/local/bin:$PATH"
 ```
 
-## Git && Github
+## Git and Github
 
 Git is version control software. It is used for sharing code, combining team members' code and managing different versions of your code.
+
+You will need to [create a Github account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you do not have one.
 
 If you are not sure whether you have it installed, type `git --version` in your terminal. If you see output like this - _git version 2.37.3_ - then congratulations! You already have git installed and you can skip ahead to the next section.
 
@@ -54,40 +62,34 @@ To install git, type this in your terminal:
 
 ```bash
 brew install git
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
 ```
 
 When it's finished, type `git --version` to confirm that it has installed.
-
-You will need to [create a Github account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) if you do not have one. Once you have an account, you will need to configure your Github username and email address on your Mac. In your terminal, type:
-
-```bash
-git config --global user.name "YOUR-USERNAME"
-git config --global user.email "your@email.com"
-git config --global pull.rebase true
-```
 
 ## Node.js and NPM Packages
 
 Node.js is a JavaScript runtime engine. It allows you to run JavaScript programs outside of Chrome, Safari, Edge or another web browser.
 
-You will need to have the latest LTS version of Node installed as of October 2022 (16.x). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
+You will need to have the latest LTS version of Node installed as of October 2022 (16.x). If you already have Node.js installed, type `node -v` in your terminal. If you do not have the latest version, you can do one of the following to things:
 
-1. [Upgrade Node.js via whatever you originally installed Node.js with.](https://flaviocopes.com/how-to-update-node/) If you have Node.js projects on your computer and you wish to maintain them, this could break your existing projects.
-2. Install multiple version of Node.js on your computer with NVM. See the _Node Version Manager (NVM)_ section of the [Linux Installaton Guide](InstallationGuideLinuxAndNVM.md).
+1. [Upgrade Node.js whatever whatever you originally installed Node.js with.](https://flaviocopes.com/how-to-update-node/) If you have Node.js projects on your computer and you wish to maintain them, this could break your existing projects.
+2. Install multiple version of Node.js on your computer with NVM. See the _Node Version Manager (NVM)_ section of the [Linux Installation Guide](InstallationGuideLinuxAndNVM.md).
+
+If you do not have Node.js installed, type this is your terminal:
+
+```bash
+brew install node@16
+```
+
+When it’s finished, type `node -v` to confirm that it is now installed.
 
 You should also update NPM. You can update it with:
 
 ```bash
 npm install -g npm@latest
 ```
-
-If you do not have Node.js installed, type this is your terminal:
-
-```bash
-brew install node
-```
-
-When it’s finished, type `node -v` to confirm that it has installed.
 
 ### ESLint
 
@@ -99,13 +101,13 @@ To install ESLint, type:
 npm install -g eslint
 ```
 
-When it’s finished, type `eslint -v` in your terminal to confirm it has installed.
+When it’s finished, type `eslint -v` in your terminal to confirm it is now installed.
 
-## Visual Studio Code (Recommended) and Plugins
+## Visual Studio Code (Recommended) and Extensions
 
 Visual Studio Code is an IDE, which is an intelligent code editor. We will be teaching with Visual Studio Code and highly recommend that you use it too. If you are experienced with programming and the command line, and you believe that you can translate whatever we teach you in Visual Studio Code to your editor of choice, you may opt for another editor, but we will not be able to help you if problems arise.
 
-To install, go to https://code.visualstudio.com and click on _Download for Mac_.
+To install, go to https://code.visualstudio.com and click on the _Download Mac Universal_ dropdown and select the _Stable_ version.
 
 When it finishes downloading, double click on the downloaded ZIP file and move Visual Studio Code from your Downloads folder to your Applications folder. You many need to enter your password.
 
