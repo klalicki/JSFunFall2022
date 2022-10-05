@@ -4,4 +4,11 @@
 - Matina Patsos
 
 # Students
-Katie Morton
+
+- Katie Morton
+- Reynelle
+- Victoria Forrest
+- Kristoff Lalicki
+- Michele Edington
+- Hal Katzman
+- Michelle Waldenmaier
