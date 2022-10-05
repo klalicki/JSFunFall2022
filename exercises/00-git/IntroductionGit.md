@@ -5,4 +5,5 @@
 
 # Students
 
-Hal Katzman
+- Hal Katzman
+- Michelle Waldenmaier
