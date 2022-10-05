@@ -5,6 +5,7 @@
 
 # Students
 
+- Katie Morton
 - Reynelle
 - Victoria Forrest
 - Kristoff Lalicki
