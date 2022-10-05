@@ -5,4 +5,4 @@
 
 # Students
 
-Kristoff Lalicki
+- Kristoff Lalicki
