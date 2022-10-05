@@ -5,5 +5,6 @@
 
 # Students
 
+- Michele Edington
 - Hal Katzman
 - Michelle Waldenmaier
