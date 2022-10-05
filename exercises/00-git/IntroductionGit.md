@@ -5,4 +5,8 @@
 
 # Students
 
-Victoria Forrest
+- Victoria Forrest
+- Kristoff Lalicki
+- Michele Edington
+- Hal Katzman
+- Michelle Waldenmaier
