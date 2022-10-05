@@ -5,6 +5,7 @@
 
 # Students
 
+- Matthew De Nero
 - Christi Harlow
 - Katie Morton
 - Reynelle
