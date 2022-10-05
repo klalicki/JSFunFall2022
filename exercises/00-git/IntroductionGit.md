@@ -5,6 +5,7 @@
 
 # Students
 
+- Victoria Forrest
 - Kristoff Lalicki
 - Michele Edington
 - Hal Katzman
