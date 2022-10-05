@@ -4,4 +4,10 @@
 - Matina Patsos
 
 # Students
-Reynelle
+
+- Reynelle
+- Victoria Forrest
+- Kristoff Lalicki
+- Michele Edington
+- Hal Katzman
+- Michelle Waldenmaier
