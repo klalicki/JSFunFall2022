@@ -5,4 +5,11 @@
 
 # Students
 
-Christi Harlow
+- Christi Harlow
+- Katie Morton
+- Reynelle
+- Victoria Forrest
+- Kristoff Lalicki
+- Michele Edington
+- Hal Katzman
+- Michelle Waldenmaier
