@@ -5,6 +5,7 @@
 
 # Students
 
+- Reynelle
 - Victoria Forrest
 - Kristoff Lalicki
 - Michele Edington
