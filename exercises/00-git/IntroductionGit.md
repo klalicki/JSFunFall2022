@@ -5,6 +5,7 @@
 
 # Students
 
+- Christi Harlow
 - Katie Morton
 - Reynelle
 - Victoria Forrest
