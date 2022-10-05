@@ -4,5 +4,7 @@
 - Matina Patsos
 
 # Students
-Michele Edington
 
+- Michele Edington
+- Hal Katzman
+- Michelle Waldenmaier
