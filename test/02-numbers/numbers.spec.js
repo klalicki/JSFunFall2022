@@ -21,8 +21,8 @@ describe("2. Numbers", () => {
   });
 
   describe("02-subtract", () => {
-    it('should contain a variable "difference" equal to the numbers "a" minus "b"', () => {
-      const difference = subtract(20, 3);
+    it('should contain a variable "difference" equal to the numbers "b" minus "a"', () => {
+      const difference = subtract(3, 20);
       expect(difference).to.equal(17);
     });
   });
