@@ -16,7 +16,24 @@ let newLastName = "Fernandez"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-let index = fullName.indexOf(" ");
+
+//My original solution  (works, but doesn't use the augmented assignment operator which it should)
+
+/*let index = fullName.indexOf(" ");
 let firstName = fullName.substring(0, index);
 fullName = firstName + " " + newLastName;
+console.log(fullName);*/
+
+//per Matina in chat - solution prints JoeFernandez (no space)
+
+//let index = fullName.indexOf(" ");
+//fullName = fullName.substring(0, index);
+//fullName += newLastName;
+//console.log(fullName);
+
+// My revised solution based on above
+
+let index = fullName.indexOf(" ");
+fullName = fullName.substring(0, index);
+fullName += " " + newLastName;
 console.log(fullName);
