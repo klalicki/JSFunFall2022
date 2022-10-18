@@ -19,4 +19,4 @@ let newLastName = "Fernandez"; // e.g.
 let index = fullName.indexOf(" ");
 let firstName = fullName.substring(0, index);
 fullName = firstName + " " + newLastName;
-console.log(firstName + " " + newLastName);
+console.log(fullName);
