@@ -35,5 +35,5 @@ console.log(fullName);*/
 
 let index = fullName.indexOf(" ");
 fullName = fullName.substring(0, index);
-fullName += " " + newLastName;
+fullName += " " + newLastName; //This is same as above but adds a space
 console.log(fullName);
