@@ -13,3 +13,11 @@ let total;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+// total = subtotal + subtotal * tip;
+
+if (tip) {
+  total = subtotal + subtotal * tip;
+} else {
+  total = subtotal;
+}
