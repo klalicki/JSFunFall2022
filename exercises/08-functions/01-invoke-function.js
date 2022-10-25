@@ -8,9 +8,12 @@ const calculateTotal = (subtotal, tax) => {
 };
 
 /**
- * You are paying your bill. You have a subtotal of $50.00 and tax is 2%.
+ * You are paying your bill. You have a subtotal of $50.00 and tax is 20%.
  *
  * Create a variable called "total". The variable "total" should be equal to the result of "calculateTotal" (which is 60).
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let total = calculateTotal(50, 0.2);
+console.log(total);

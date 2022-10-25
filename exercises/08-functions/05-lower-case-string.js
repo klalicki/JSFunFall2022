@@ -16,3 +16,14 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const lowerCaseString = (isString) => {
+  if (typeof isString === "string") {
+    return isString.toLowerCase();
+  }
+  return isString;
+};
+console.log(lowerCaseString("Javascript!"));
+console.log(lowerCaseString("HELP"));
+console.log(lowerCaseString());
+console.log(lowerCaseString(1024));
+console.log(lowerCaseString("500BB"));

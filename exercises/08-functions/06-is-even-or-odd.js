@@ -12,3 +12,11 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isEvenOrOdd = (number) => {
+  if (number % 2 === 0) {
+    return "even";
+  }
+  return "odd";
+};
+console.log(isEvenOrOdd(5));
+console.log(isEvenOrOdd(100));
