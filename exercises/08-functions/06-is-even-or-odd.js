@@ -12,3 +12,10 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const isEvenOrOdd = (num) => {
+  if (num % 2) {
+    return "odd";
+  } else {
+    return "even";
+  }
+};
