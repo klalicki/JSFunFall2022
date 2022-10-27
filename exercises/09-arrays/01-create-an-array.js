@@ -4,3 +4,6 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const restaurants = ["Stadium Diner", "Peter Luger", "Juniors"];
+
+console.log(restaurants);
