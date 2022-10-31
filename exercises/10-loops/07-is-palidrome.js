@@ -10,6 +10,8 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
+  let reverseString = string.split("").reverse().join("");
+  return reverseString === string;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

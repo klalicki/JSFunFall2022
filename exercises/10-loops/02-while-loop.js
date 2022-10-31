@@ -17,7 +17,11 @@
  */
 
 const logWithWhile = () => {
-  // WRITE YOUR ANSWER HERE
+  let num = 10;
+  while (num <= 100) {
+    console.log(num);
+    num += 10;
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.

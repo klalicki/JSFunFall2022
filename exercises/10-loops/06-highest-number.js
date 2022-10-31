@@ -9,7 +9,13 @@
  */
 
 const highestNumber = (numbers) => {
-  // WRITE YOUR ANSWER HERE
+  let highestNumber = numbers[0];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > highestNumber) {
+      highestNumber = numbers[i];
+    }
+  }
+  return highestNumber;
 };
 
 // IGNORE THIS BELOW. It is for the tests.

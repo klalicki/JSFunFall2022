@@ -7,7 +7,7 @@
  */
 
 const arrayLength = (array) => {
-  // WRITE YOUR ANSWER HERE
+  return array.length;
 };
 
 // IGNORE THIS BELOW. It is for the tests.
