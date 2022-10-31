@@ -4,3 +4,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const restaurants = ["Sissy's Cafe", "Masa Midtown", "Yasuda"];
