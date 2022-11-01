@@ -10,7 +10,18 @@
 
 const highestNumber = (numbers) => {
   // WRITE YOUR ANSWER HERE
+
+  let m = -Infinity,
+    i = 0;
+  for (; i != numbers.length; ++i) {
+    if (numbers[i] > m) {
+      m = numbers[i];
+    }
+  }
+  return m;
 };
+
+console.log(highestNumber([30, 690, -242, 683]));
 
 // IGNORE THIS BELOW. It is for the tests.
 
