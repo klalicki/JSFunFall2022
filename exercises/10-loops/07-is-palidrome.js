@@ -10,7 +10,18 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
+  /*
+  array = string.split("");
+  reverseArray = array.reverse();
+  reverseString = reverseArray.join("");
+  if (string === reverseString) {
+    return true;
+  } else {
+    return false;
+  }
+  */
 };
+isPalindrome("kayak");
 
 // IGNORE THIS BELOW. It is for the tests.
 

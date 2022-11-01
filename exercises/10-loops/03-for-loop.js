@@ -13,11 +13,12 @@
 
 const logArrayWithFor = (array) => {
   // WRITE YOUR ANSWER HERE
-  let array2 = ["Honda", "Ford", "Ferrari"];
-  for (let car of array2) {
-    console.log(car);
+  for (let i = 0; i < array.length; i++) {
+    let item = array[i];
+    console.log(item);
   }
 };
+logArrayWithFor(["Honda", "Ford", "Ferrari"]);
 
 // IGNORE THIS BELOW. It is for the tests.
 

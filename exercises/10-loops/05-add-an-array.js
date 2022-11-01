@@ -8,7 +8,16 @@
 
 const add = (numbers) => {
   // WRITE YOUR ANSWER HERE
+
+  //let sumArray = [numbers]; //?? how to set up (get arguments into?) an array
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+
+  return sum;
 };
+add([16, 12, 2]);
 
 // IGNORE THIS BELOW. It is for the tests.
 
