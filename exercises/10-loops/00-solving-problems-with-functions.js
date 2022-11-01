@@ -8,6 +8,7 @@
 
 const returnAnswer = (personName) => {
   // WRITE YOUR ANSWER HERE
+  return personName;
 };
 
 // IGNORE THIS BELOW. It is for the tests.
