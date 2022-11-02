@@ -11,14 +11,17 @@
 const highestNumber = (numbers) => {
   // WRITE YOUR ANSWER HERE
 
-  let m = -Infinity;
+  // I adopted this solution from https://stackoverflow.com/questions/54623431/find-the-biggest-number-in-an-array-by-using-javascript-loops
+  //Answered by user Jack Bashford
+
+  let highNum = -Infinity;
 
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > m) {
-      m = numbers[i];
+    if (numbers[i] > highNum) {
+      highNum = numbers[i];
     }
   }
-  return m;
+  return highNum;
 };
 
 console.log(highestNumber([30, 690, -242, 683]));
