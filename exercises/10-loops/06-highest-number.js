@@ -11,9 +11,9 @@
 const highestNumber = (numbers) => {
   // WRITE YOUR ANSWER HERE
 
-  let m = -Infinity,
-    i = 0;
-  for (; i != numbers.length; ++i) {
+  let m = -Infinity;
+
+  for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > m) {
       m = numbers[i];
     }
