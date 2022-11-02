@@ -10,18 +10,15 @@
 
 const isPalindrome = (string) => {
   // WRITE YOUR ANSWER HERE
-  /*
-  array = string.split("");
-  reverseArray = array.reverse();
-  reverseString = reverseArray.join("");
-  if (string === reverseString) {
+
+  let stringReversed = string.split("").reverse().join("");
+
+  if (string === stringReversed) {
     return true;
-  } else {
-    return false;
-  }
-  */
+  } else return false;
 };
 isPalindrome("kayak");
+console.log(isPalindrome("kayak"));
 
 // IGNORE THIS BELOW. It is for the tests.
 
