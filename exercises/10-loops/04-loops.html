@@ -69,7 +69,11 @@
         // Create a loop here and use this function within the loop
         // to add every person's name to the table.
         // addToTable(1, results[0]); // Change me. This should be inside your loop.
-        addToTable(1, results[i + 1]);
+        for (let name of results);
+        {
+          let place = i;
+          addToTable(results.indexOf(name) + 1, name);
+        }
       })();
     </script>
   </body>
