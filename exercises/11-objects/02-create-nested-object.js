@@ -30,3 +30,13 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let graduate = {
+  name: name,
+  graduationYear: graduationYear,
+  skills: [],
+  links: {
+    githubLink: "https://github.com/example/profile",
+    linkedInLink: "https://linkedin.com/profile",
+  },
+};
+console.log(graduate);
