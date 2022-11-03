@@ -33,10 +33,10 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
 let graduate = {
   name: name,
   graduationYear: graduationYear,
-  skills: [],
+  skills: skills,
   links: {
-    githubLink: "https://github.com/example/profile",
-    linkedInLink: "https://linkedin.com/profile",
+    githubLink,
+    linkedInLink,
   },
 };
 console.log(graduate);
