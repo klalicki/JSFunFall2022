@@ -16,6 +16,7 @@ let student = {
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 student.name = "Hal Katzman";
-student.skills = [...student.skills, "CSS"];
+// student.skills = [...student.skills, "CSS"];  OR:
+student.skills.push("HTML");
 
 console.log(student);
