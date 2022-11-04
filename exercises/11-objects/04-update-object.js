@@ -15,7 +15,6 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-
 student.name = "Hal Katzman";
 student.skills = [...student.skills, "CSS"];
 
