@@ -12,8 +12,12 @@
 
 const combineObjects = (obj1, obj2) => {
   // WRITE YOUR ANSWER HERE
+  let combined = { ...obj1, ...obj2 };
+  console.log(combined);
+  return combined;
 };
 
+combineObjects({ city: "Albany" }, { state: "NY" });
 // IGNORE THIS BELOW. It is for the tests.
 
 export default combineObjects;

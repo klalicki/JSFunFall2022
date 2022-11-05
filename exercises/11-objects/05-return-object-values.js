@@ -19,7 +19,16 @@
 
 const returnObjectValues = (blogPost) => {
   // WRITE YOUR ANSWER HERE
+  let values = Object.values(blogPost);
+  console.log(values);
+  return values;
 };
+returnObjectValues({
+  title: "An Interesting Fact About Me, A Month Late",
+  author: "Paul Mermod",
+  date: "2022-11-05",
+  content: "I have a Bachelor of Fine Arts and worked in accounting.",
+});
 
 // IGNORE THIS BELOW. It is for the tests.
 
