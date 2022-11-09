@@ -18,8 +18,19 @@
 
 const generateLinks = (links) => {
   // WRITE YOUR ANSWER HERE
+  for (let oneLink in links) {
+    let title = links[oneLink];
+    console.log('<a href="' + links[oneLink] + '">' + oneLink + "</a>");
+  }
 };
 
+const links = {
+  Dogs: "http://www.omfgdogs.com",
+  Kittens: "https://giphy.com/search/kitten",
+  "Hamster Dance": "https://hamster.dance/hamsterdance/",
+};
+
+generateLinks(links);
 // IGNORE THIS BELOW. It is for the tests.
 
 export default generateLinks;
