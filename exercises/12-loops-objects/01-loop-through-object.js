@@ -18,7 +18,7 @@
 
 const generateLinks = (links) => {
   let elementList = [];
-  for (const [linkName, linkUrl] of Object.entries(links)) {
+  for (let [linkName, linkUrl] of Object.entries(links)) {
     elementList.push(`<a href="${linkUrl}">${linkName}</a>`);
   }
   return elementList.join("");
