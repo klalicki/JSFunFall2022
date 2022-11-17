@@ -24,6 +24,9 @@
 
 const findFirst = (arrayOfNum, callback) => {
   // WRITE YOUR ANSWER HERE
+  for (let value of arrayOfNum) {
+    console.log(value);
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.
