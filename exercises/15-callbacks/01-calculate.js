@@ -22,7 +22,7 @@
  */
 
 const calculate = (num1, num2, callback) => {
-  // WRITE YOUR ANSWER HERE
+  return callback(num1, num2);
 };
 
 // IGNORE THIS BELOW. It is for the tests.

@@ -23,7 +23,11 @@
  */
 
 const findFirst = (arrayOfNum, callback) => {
-  // WRITE YOUR ANSWER HERE
+  for (let item of arrayOfNum) {
+    if (callback(item)) {
+      return item;
+    }
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.
