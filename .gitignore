@@ -231,3 +231,5 @@ $RECYCLE.BIN/
 # Usually, you would commit this, but I am ignoring this for class.
 package-lock.json
 yarn.lock
+
+in-class/
