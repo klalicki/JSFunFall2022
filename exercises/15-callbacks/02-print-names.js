@@ -32,8 +32,9 @@ const printer = (name) => {
  */
 const printNames = (array, callback) => {
   // WRITE PART 2 OF YOUR ANSWER HERE
-  for (let item of array);
-  printer(item);
+  for (let item of array) {
+    printer(item);
+  }
 };
 
 // IGNORE THIS BELOW. It is for the tests.
