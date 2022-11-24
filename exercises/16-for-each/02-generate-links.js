@@ -3,7 +3,7 @@ const links = [
   // e.g.
   "http://speakingjs.com/es5/ch04.html",
   "https://www.ecma-international.org/",
-  "https://books.google.com/books?id=2weL0iAfrEMC",
+  "https://www.google.com/books/edition/Eloquent_JavaScript_3rd_Edition/p1v6DwAAQBAJ",
 ];
 
 /**
@@ -24,3 +24,6 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+links.forEach((link, i) => {
+  return (htmlStr += `<a href="${link}"> ${i + 1}. ${link}</a>`);
+});

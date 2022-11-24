@@ -9,7 +9,6 @@ const numbers = [1, 10, -2, 3, 4]; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-
 numbers.forEach((num, i) => {
   if (num < lowestNumber) lowestNumber = num;
 });
