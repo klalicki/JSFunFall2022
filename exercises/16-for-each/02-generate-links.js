@@ -24,3 +24,7 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const appendLink = (url, index) => {
+  htmlStr += `<a href="${url}"> ${index + 1}. ${url}</a>`;
+};
+links.forEach(appendLink);

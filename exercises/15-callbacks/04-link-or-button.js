@@ -16,16 +16,16 @@ const createButton = (text) => {
  * You must use a callback to solve this problem.
  */
 
-const createCallToAction = (clickableText) => {
+const createCallToAction = (clickableText, callback) => {
   return (
     "<div>Limited Time: Members Save 30%<br>" +
-    createLink(clickableText) +
+    callback(clickableText) +
     "</div>"
   );
 };
 
 // Update me too
-createCallToAction("Book Now");
+createCallToAction("Book Now", createButton);
 
 // IGNORE THIS BELOW. It is for the tests.
 
