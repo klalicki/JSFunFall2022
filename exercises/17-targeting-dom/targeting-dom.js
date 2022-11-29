@@ -11,5 +11,18 @@
  * Do not change the HTML unless you are instructed to do so.
  */
 (function () {
-  // Put your answers in here
+  const singleElement = document.querySelector("li");
+  console.log(singleElement);
+
+  const groupOfElements = document.querySelectorAll("li.bg-warning");
+  groupOfElements.forEach(console.log);
+
+  const btnTargetMe = document.querySelector("#btn-target");
+  console.log(btnTargetMe);
+
+  const socialLinks = document.querySelectorAll(".link-social");
+  socialLinks.forEach(console.log);
+
+  const nestedElements = document.querySelectorAll("#myRow div");
+  nestedElements.forEach(console.log);
 })();
