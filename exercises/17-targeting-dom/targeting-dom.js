@@ -15,14 +15,22 @@
   console.log(singleElement);
 
   const groupOfElements = document.querySelectorAll("li.bg-warning");
-  groupOfElements.forEach(console.log);
+  groupOfElements.forEach((item) => {
+    console.log(item);
+  });
 
   const btnTargetMe = document.querySelector("#btn-target");
   console.log(btnTargetMe);
 
-  const socialLinks = document.querySelectorAll(".link-social");
-  socialLinks.forEach(console.log);
+  const socialLinks = document.querySelectorAll(
+    "[data-link-type='link-social']"
+  );
+  socialLinks.forEach((item) => {
+    console.log(item);
+  });
 
   const nestedElements = document.querySelectorAll("#myRow div");
-  nestedElements.forEach(console.log);
+  nestedElements.forEach((item) => {
+    console.log(item);
+  });
 })();
