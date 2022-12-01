@@ -12,4 +12,23 @@
  */
 (function () {
   // Put your answers in here
+  let li1 = document.querySelector("li");
+  console.log(li1);
+  let li2 = document.querySelector("#myId");
+  console.log(li2);
+  /******/
+  let warnings = document.querySelectorAll(".bg-warning");
+  for (let warning of warnings) {
+    console.log(warning);
+  }
+  /********/
+  let button = document.querySelector("#target-button");
+  console.log(button);
+  /*******/
+  let anchors = document.querySelectorAll(".social");
+  for (let anchor of anchors) {
+    console.log(anchor);
+    /********/
+    let cells = document.querySelectorAll("");
+  }
 })();
