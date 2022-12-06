@@ -8,7 +8,13 @@
    * When the clicks on the button that says "Alert Me!", it should display an alert.
    * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
    */
-  // Write your answer here
+  const alertMsg = () => {
+    window.alert("Alert Me!");
+  };
+  document
+    .querySelector('[data-button-type="alert"]')
+    .addEventListener("click", alertMsg);
+
   /**
    * Problem 2: Disable a button that will charge a credit card.
    *
@@ -17,4 +23,12 @@
    * 2. Change the text to say e.g. "Loading ..." once it is clicked.
    */
   // Write your answer here
+  const disableBtn = () => {
+    const btn = document.querySelector('[data-button-type="disable"]');
+    btn.textContent = "Loading...";
+    btn.disabled = "disabled";
+  };
+  document
+    .querySelector('[data-button-type="disable"]')
+    .addEventListener("click", disableBtn);
 })();
