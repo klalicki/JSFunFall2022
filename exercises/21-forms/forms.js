@@ -9,7 +9,13 @@
    * When the user types inside the textbook labeled "Enter mystery text here",
    * it should display what the user is typing in the <div></div> tags below.
    */
-  // Write your answer here
+  document
+    .querySelector("#mystery-text-source")
+    .addEventListener("input", (e) => {
+      document.querySelector("#mystery-text-target").textContent =
+        e.target.value;
+    });
+
   /**
    * Problem 2: Display the results of the world's most pointless search engine.
    *
@@ -22,6 +28,11 @@
    * The exercise must be completed with a form handler
    * and you must prevent the page from refreshing when the form is submitted.
    */
+  document.querySelector("#search-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const searchQuery = document.querySelector("#ocean-search-box").value;
+    document.querySelector("#ocean-search-results").textContent = `No results for ${searchQuery} found`;
+  });
   // Write your answer here
   /**
    * Problem 3: Agree to the terms and conditions
@@ -33,5 +44,15 @@
    *
    * To start, you will need to hide some element on the page and change the input's classes.
    */
-  // Write your answer here
+  document.querySelector("#tc-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (document.querySelector("#tc-checkbox").checked) {
+      document.querySelector("#tc-checkbox").classList.remove("is-invalid");
+      document.querySelector("#tc-text-warning").classList.add("hidden");
+      document.querySelector("#tc-text-success").classList.remove("hidden");
+    } else {
+      document.querySelector("#tc-checkbox").classList.add("is-invalid");
+      document.querySelector("#tc-text-warning").classList.remove("hidden");
+    }
+  });
 })();
