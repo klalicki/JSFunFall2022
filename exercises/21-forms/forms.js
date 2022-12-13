@@ -29,8 +29,8 @@
    */
   // Write your answer here
 
-  const results = document.querySelector("#search-results");
   const searchForm = document.querySelector("#search-form");
+  const results = document.querySelector("#search-results");
   searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const input = document.querySelector("#input").value;
