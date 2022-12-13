@@ -10,6 +10,11 @@
    * it should display what the user is typing in the <div></div> tags below.
    */
   // Write your answer here
+  const textBox = document.querySelector("#textbox");
+  const inputMessage = document.querySelector("#inputmessage");
+  textBox.addEventListener("input", (event) => {
+    inputMessage.textContent = event.target.value;
+  });
   /**
    * Problem 2: Display the results of the world's most pointless search engine.
    *
@@ -23,6 +28,14 @@
    * and you must prevent the page from refreshing when the form is submitted.
    */
   // Write your answer here
+
+  const results = document.querySelector("#search-results");
+  const searchForm = document.querySelector("#search-form");
+  searchForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = document.querySelector("#input").value;
+    results.textContent = `No results for ${input} found`;
+  });
   /**
    * Problem 3: Agree to the terms and conditions
    *
