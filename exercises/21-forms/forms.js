@@ -55,12 +55,12 @@
   const labelAgree = document.querySelector("#label-agree");
 
   formTerms.addEventListener("click", (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     if (checkBox.target.checked) {
-      textSuccess.classList.remove("hidden");
+      textSuccess.classList.remove(".hidden");
     } else {
-      labelAgree.classList.add("is-invalid");
-      textDanger.classList.remove("hidden");
+      labelAgree.classList.add(".is-invalid");
+      textDanger.classList.remove(".hidden");
     }
   });
 })();
