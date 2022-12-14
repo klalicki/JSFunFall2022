@@ -47,4 +47,13 @@
    * To start, you will need to hide some element on the page and change the input's classes.
    */
   // Write your answer here
+
+  //TEST THESE VALUES IN CONSOLE!!!!!!!!CANNOT TARGET!!!!!
+  const checkAgree = document.querySelector("#check-agree");
+  const uncheckedMessage = document.querySelector("#text-danger");
+
+  checkAgree.addEventListener("click", (e) => {
+    if (e.target.checked) {
+    }
+  });
 })();
