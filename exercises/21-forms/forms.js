@@ -48,12 +48,19 @@
    */
   // Write your answer here
 
-  //TEST THESE VALUES IN CONSOLE!!!!!!!!CANNOT TARGET!!!!!
-  const checkAgree = document.querySelector("#check-agree");
-  const uncheckedMessage = document.querySelector("#text-danger");
+  const checkBox = document.querySelector("#check-box");
+  const formTerms = document.querySelector("#form-terms");
+  const textSuccess = document.querySelector("#text-sucess");
+  const textDanger = document.querySelector("#text-danger");
+  const labelAgree = document.querySelector("#label-agree");
 
-  checkAgree.addEventListener("click", (e) => {
-    if (e.target.checked) {
+  formTerms.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (checkBox.target.checked) {
+      textSuccess.classList.remove("hidden");
+    } else {
+      labelAgree.classList.add("is-invalid");
+      textDanger.classList.remove("hidden");
     }
   });
 })();
