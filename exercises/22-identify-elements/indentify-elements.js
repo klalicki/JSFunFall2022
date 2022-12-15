@@ -1,4 +1,11 @@
 !(function () {
+  document
+    .querySelectorAll(".pricing-plan .plan-footer button")
+    .forEach((element) => {
+      element.addEventListener("click", (e) => {
+        const pricePlanName=e.target.data.
+      });
+    });
   /**
    * When the user clicks on one of the "Select" buttons to select a plan,
    * display the following message in the aqua green notification at the top of the screen,
