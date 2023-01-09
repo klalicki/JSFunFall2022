@@ -114,7 +114,7 @@ You must use Vanilla JavaScript to manipulate the DOM. That means you cannot use
 
 We realize that we did not teach design in this class, but there is no way to get around the fact that design must be a part of the process. We will not grade your project on how good it looks, but a good design will make a better impression with employers, so please try to make your application look as nice as possible.
 
-You are welcome to use a CSS frameworks like [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/), [Bulma](https://bulma.io/documentation/overview/start/), or [UIKit](https://getuikit.com/docs/introduction). You may see instructions to install with npm or yarn. If you haven't done this before, I would not recommend this. Instead, I would search for instructions on how to include your CSS framework of choice over a CDN (Content Delivery Network). This means you will include the CSS with a `<link>` tag in your HTML file like this:
+You are welcome to use a CSS frameworks like [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/), [Bulma](https://bulma.io/documentation/overview/start/), or [UIKit](https://getuikit.com/docs/introduction). You may see instructions to install with npm or yarn. If you haven't done this before, I would not recommend this. Instead, I would search for instructions on how to include your CSS framework over a CDN (Content Delivery Network). This means you will include the CSS with a `<link>` tag in your HTML file like this:
 
 ```html
 <!DOCTYPE html>
@@ -246,12 +246,13 @@ You can generate _.gitignore_ file with [gitignore.io](https://www.toptal.com/de
 
 In addition to submitting code, you will need to submit a hosted version of your project. An easy way to do this is to publish your project with Github pages. Here are the steps:
 
-1. Open you Github repository e.g. https://github.com/my-github-username/final-project for your project in a web browser.
-2. Click on the "Settings" tab below the "Unwatch", "Star", and "Fork" buttons.
-3. In the sidebar, click on "Pages".
-4. Underneath where it says "Source", click on the "Branch" dropdown and select "Main".
-5. Hit the "Save" button.
-6. You will see the URL for your published project (e.g. https://my-github-username.github.io/final-project), but it may take up to 15 minutes before the link works. If you click on the link and click a page not found error, you can try opening it an Incognito window or another browser.
+1. You will need your HTML file to be named "index.html" and it should be located in the root of your project.
+2. Open you Github repository e.g. https://github.com/my-github-username/final-project for your project in a web browser.
+3. Click on the "Settings" tab below the "Unwatch", "Star", and "Fork" buttons.
+4. In the sidebar, click on "Pages".
+5. Underneath where it says "Source", click on the "Branch" dropdown and select "Main".
+6. Hit the "Save" button.
+7. You will see the URL for your published project (e.g. https://my-github-username.github.io/final-project), but it may take up to 15 minutes before the link works. If you click on the link and click a page not found error, you can try opening it an Incognito window or another browser.
 
 ## Project Submission
 
