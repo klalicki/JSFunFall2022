@@ -240,6 +240,17 @@ If you need help, please schedule a 1-on-1 with your instructors or any of the C
 
 You will need to [create a new public Github repository](https://help.github.com/en/articles/create-a-repo) for this project. It must be public. You should also include a _README.md_ and _.gitignore_ file.
 
+If you started your project on your local machine you will need to setup git locally. For example:
+
+```
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <GITHUB_URL> # Copy this from Github
+git branch -M main
+git push -u origin main
+```
+
 Your _README.md_ file should be written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). This should be written for employers who may be looking at your work. Describe your project and explain how to get started.
 
 You can generate _.gitignore_ file with [gitignore.io](https://www.toptal.com/developers/gitignore). If you have a _node_modules_ folder, be sure to include it in your _.gitignore_.
